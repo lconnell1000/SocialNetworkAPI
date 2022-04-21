@@ -48,4 +48,12 @@ The following image shows a GET request to get all thoughts and that the previou
 
 ![ A screenshot of Delete request for a thought](./Assets/Screenshot4.png)
 
+The following image shows a PUT request to change a user's username
+
+![ A screenshot of put request to change username](./Assets/Screenshot5.png)
+
+The following image shows a GET request on an individual user's Id (the one we just changed) and shows the username has been updated
+
+![ A screenshot of put request to change username](./Assets/Screenshot6.png)
+
 ## A link to a video walk through of the demo
