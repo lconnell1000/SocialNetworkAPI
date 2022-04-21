@@ -10,7 +10,7 @@ module.exports = {
     },
     //gets a single user by ID
     getSingleUser(req, res) {
-        User.findOne({ "_id": req.params.userID })
+        User.findOne({ "_id": req.params.userId })
         .select("-__v")
         .populate('thoughts')
         .populate('friends')
