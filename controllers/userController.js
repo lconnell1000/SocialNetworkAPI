@@ -12,8 +12,6 @@ module.exports = {
     getSingleUser(req, res) {
         User.findOne({ "_id": req.params.userId })
         .select("-__v")
-        .populate('thoughts')
-        .populate('friends')
         .then(user =>  res.json(user))
         .catch((err) => res.status(500).json(err));
     },
