@@ -12,7 +12,7 @@ module.exports = {
     getSingleUser(req, res) {
         User.findOne({ _id: req.params.userID })
         .select("-__v")
-        .then(user =>  res.json(user))
+        .then((user) =>  res.json(user))
         .catch((err) => res.status(500).json(err));
     },
 
