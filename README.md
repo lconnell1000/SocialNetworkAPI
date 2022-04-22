@@ -57,3 +57,5 @@ The following image shows a GET request on an individual user's Id (the one we j
 ![ A screenshot of put request to change username](./Assets/Screenshot6.png)
 
 ## A link to a video walk through of the demo
+
+https://drive.google.com/file/d/1EAbCPktFJRFFxreac-oOf4oqDljtZ8ha/view
